@@ -14,4 +14,4 @@ A minimal embedded Undertow Hello World application.
 
 ## Deploy to OpenShift
 
-    mvn fabric8:deploy -Popenshift
+    mvn fabric8:deploy -Popenshift -Dfabric8.deploy.createExternalUrls=true
